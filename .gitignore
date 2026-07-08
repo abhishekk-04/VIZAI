@@ -1,0 +1,24 @@
+# Python Virtual Environment
+backend/.venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/*/__pycache__/
+backend/app/*/*/__pycache__/
+
+# SQLite Database & Uploaded Files
+backend/vizai.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/_clean.csv
+
+# Node Modules & Frontend Builds
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local configuration / Environment variables
+.env
+backend/.env
+frontend/.env
+*.log
+.DS_Store
