@@ -119,9 +119,4 @@ cd backend
 
 ---
 
-## Deployment
-
-Refer to the step-by-step [deployment_guide.md](./deployment_guide.md) for production hosting options:
-- Option 1: Hosting on Render (Cloud Platform) using a Persistent Disk for SQLite database & uploads.
-- Option 2: Hosting on a VPS (DigitalOcean / AWS / Hostinger) using Nginx, Systemd, and Uvicorn.
 
